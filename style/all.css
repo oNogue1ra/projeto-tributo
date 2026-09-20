@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    /* height: 3000px; */
+    width: 98vw;
+     
+}
+
+main {
+    /* background-image: url(../image/Renan_Santos_-_Congresso_do_Partido_Missão\,_2026.webp); */
+    background-size: cover;  
+}
+
+section#um {
+    width: 98vw;
+    height: 600px;
+    background-color: lightgray;
+}
+
+section#dois {
+    width: 98vw;
+    height: 1000px;
+    background-color: gray;
+}
