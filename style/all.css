@@ -17,14 +17,66 @@ main {
     background-size: cover;  
 }
 
-section#um {
+div#um {
     width: 98vw;
     height: 600px;
     background-color: lightgray;
 }
 
-section#dois {
+div#dois {
     width: 98vw;
     height: 1000px;
     background-color: gray;
+}
+
+div#tit1 {
+    width: 100%;
+    height: 70px;
+
+
+    background-color: aquamarine;
+}
+
+p#tit2 {
+
+}
+
+h2#tit3 {
+
+}
+
+div.artigos {
+    width: 100%;
+    height: 700px;
+
+    background-color: cadetblue;
+}
+
+article.art {
+    width: 150px;
+    height: 500px;
+    background-color: gray;
+
+}
+
+span.titulo1 {
+
+}
+
+h3.titulo3 {
+
+}
+
+div.img2 {
+    width: 30px;
+    height: 30px;
+}
+
+img.img3 {
+    width: 100%;
+    height: 100%;
+}
+
+p.text1 {
+
 }
