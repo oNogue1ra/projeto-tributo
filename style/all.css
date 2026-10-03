@@ -1,9 +1,10 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
     padding: 0px;
     margin: 0px;
-
+    font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -53,23 +54,40 @@ div.artigos {
 }
 
 article.art {
-    width: 150px;
+    width: 300px;
     height: 500px;
+    padding: 8px 10px 0px 8px;
+    margin: 1px 1px 1px 1px;
     background-color: gray;
+
+    position: relative;
 
 }
 
 span.titulo1 {
-
-}
+    font-size: 2.5em;
+    font-weight: bolder;
+    position: absolute; 
+    top: 14px; 
+} 
 
 h3.titulo3 {
+    margin: 8px 1px 8px 1px;
+    position: absolute; 
+    top: 48px; 
 
+    font-size: 1.7em;
+    font-weight: bolder;
 }
 
 div.img2 {
-    width: 30px;
-    height: 30px;
+    width: 220px;
+    height: 230px;
+    margin: auto;
+
+    position: absolute;
+    top: 21%;
+    right: 18%;
 }
 
 img.img3 {
@@ -78,5 +96,10 @@ img.img3 {
 }
 
 p.text1 {
+    position: absolute;
+    bottom: 30px;
+    margin: auto;
 
+    font-size: medium;
+    font-weight: 350;
 }
